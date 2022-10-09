@@ -1,0 +1,190 @@
+/*fonts*/
+@font-face {
+  font-family: logofont;
+  src: url("../fonts/font1.ttf");
+}
+
+
+
+.col-md-12,
+.col-md-4,
+.col-md-6{
+	border:solid 0px black;
+}
+
+.navbar-brand{
+	font-family:logofont;
+	font-size:24pt;
+}
+
+.nav-link{
+	font-weight: 600;
+}
+
+.donate{
+	background-color:rgb(254,237,93);
+	color:rgb(3,23,59);
+	border-color: transparent;
+	font-weight: 800;
+}
+.logoaltcolor{
+	color:rgb(3,23,59);
+}
+.carousel-caption h5{
+	color:rgb(254,237,93);
+	font-size:20px;
+	font-weight: 800;
+} 
+
+.nopadding{
+	padding:0px;
+}
+
+.margintopbottom{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.card-text{
+	min-height: 110px;
+}
+
+.gosomewhere{
+	background-color:rgb(3,23,59);
+	color:white;
+	border-color: transparent;
+	font-weight: 800;
+}
+
+.h5{
+	font-weight: 800;
+	color:rgb(3,23,59);
+}
+
+.updates{
+	color:rgb(3,23,59);
+}
+
+.list-unstyled{
+	color:rgb(3,23,59);
+}
+
+.footer{
+	min-height: 25vh;
+}
+
+.footer i{
+	color:rgb(3,23,59);
+	font-size:20pt;
+}
+
+.footer i:hover{
+	color:rgb(254,237,93);
+	cursor:pointer;
+
+}
+.customImage{
+  border-radius : 25px;
+  margin-bottom : 30px;
+}
+
+.customtext{
+	color:rgb(3,23,59);
+	background-color:rgba(199,203,209,0.5);
+	margin-bottom: 30px;
+	border-radius : 25px;
+}
+
+.customtext:hover{
+ background-color:rgb(199,203,209);
+}
+.card-title{
+	font-weight: 600;
+	/*font-family: logofont;*/
+	font-size:40pt;
+}
+
+.loveoutdoor{
+	font-size:28pt;
+	font-weight: 200;
+}
+
+.col-md-8 i{
+color:rgb(3,23,59);
+	font-size:50pt;
+	margin : 40px;
+}
+
+.h3{
+	color:rgb(3,23,59);
+
+}
+
+
+.sunset2{
+	border-color: gray;
+}
+
+.contribute{
+	background-color: rgba(44,75,98,1);
+	border-radius : 10px;
+}
+
+.donateBtn{
+  width : 100%;
+  margin : 5px;
+}
+
+.h1{
+	color:white;
+	font-family: Impact, fantasy;
+}
+
+.textcustom{
+	color:white;
+	font-family: Impact, fantasy;
+}
+
+.marginTop{
+  margin-top : 20px;
+}
+
+.marginTop2{
+  margin-top : 10px;
+}
+
+@media (max-width: 700px)
+{
+
+    .nopadding{
+      padding-left : 10px;
+      padding-right : 10px;
+    }
+
+    .marginTop2{
+      margin-top : 0px;
+    }
+
+    .card{
+      margin-bottom : 10px;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1200px)
+{
+
+    .marginTop2{
+      margin-top : 0px;
+    }
+
+    .nopadding{
+      padding-left : 10px;
+      padding-right : 10px;
+    }
+
+    .card{
+      min-height : 590px;
+    }
+
+}
